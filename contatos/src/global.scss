@@ -1,0 +1,156 @@
+/* ------------------------------ */
+/*   IMPORTAÇÕES IONIC PADRÃO    */
+/* ------------------------------ */
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+/* ------------------------------ */
+/*         FUNDO GLOBAL           */
+/* ------------------------------ */
+ion-content {
+  --background: none !important;
+  background: radial-gradient(circle at top left, #1e293b, #0f172a);
+  color: #f8fafc;
+}
+
+
+/* ------------------------------ */
+/*            TOOLBAR             */
+/* ------------------------------ */
+ion-toolbar {
+  --background: rgba(15, 23, 42, 0.85);
+  --color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+}
+
+ion-title {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+
+/* ------------------------------ */
+/*              CARDS             */
+/* ------------------------------ */
+.custom-card {
+  background: rgba(30, 41, 59, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.card-title {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #38bdf8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  ion-icon {
+    font-size: 20px;
+    color: #38bdf8;
+  }
+}
+
+
+/* ------------------------------ */
+/*           INPUTS / FORM        */
+/* ------------------------------ */
+ion-item {
+  --background: rgba(255, 255, 255, 0.04);
+  --border-radius: 12px;
+  --padding-start: 16px;
+  --highlight-color-focused: #38bdf8;
+  margin-bottom: 12px;
+  color: #fff;
+
+  ion-label {
+    font-weight: 500;
+    color: #94a3b8 !important;
+  }
+
+  ion-input {
+    --color: #fff;
+    font-weight: 600;
+  }
+}
+
+
+/* ------------------------------ */
+/*             BOTÕES             */
+/* ------------------------------ */
+ion-button.primary-btn {
+  --background: linear-gradient(135deg, #3b82f6, #2563eb);
+  --border-radius: 12px;
+  font-weight: 700;
+  height: 50px;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.45);
+}
+
+ion-button.secondary-btn {
+  --background: rgba(255, 255, 255, 0.12);
+  --color: #fff;
+  --border-radius: 10px;
+  font-weight: 600;
+}
+
+ion-button.danger-btn {
+  --background: rgba(220, 38, 38, 0.18);
+  --color: #f87171;
+  --border-radius: 12px;
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: rgba(220, 38, 38, 0.45);
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+
+/* ------------------------------ */
+/*              LISTA             */
+/* ------------------------------ */
+.list-container {
+  background: transparent;
+  padding: 0;
+}
+
+.list-item {
+  --background: rgba(30, 41, 59, 0.55);
+  --border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 8px;
+
+  ion-label h3 {
+    font-weight: 700;
+    color: #e2e8f0;
+  }
+
+  ion-label p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+  }
+
+  ion-icon[slot="end"] {
+    color: #94a3b8;
+    font-size: 20px;
+  }
+}
