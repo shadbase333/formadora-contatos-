@@ -2,7 +2,7 @@ Projeto Contatos - Ionic + Firebase
 
 📱 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte da Avaliação Formadora 3 do curso Análise e Desenvolvimento de Sistemas, no módulo Desenvolvimento de Aplicativos Mobile.
+Este projeto foi desenvolvido como parte da Avaliação Formadora 4 do curso Análise e Desenvolvimento de Sistemas, no módulo Desenvolvimento de Aplicativos Mobile.
 
 O objetivo é criar uma aplicação simples de gerenciamento de contatos utilizando Ionic, Firebase e Git, aplicando os conceitos de:
 
